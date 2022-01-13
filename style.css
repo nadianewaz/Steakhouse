@@ -1,0 +1,57 @@
+.background{
+    height: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  body {
+    font-family: "Playfair Display", serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  .header {
+    background: #E5E4E2;
+    height: 80px;
+    line-height: 80px;
+  }
+  .container {
+    max-width: 86%;
+    margin: auto;
+  }
+  .menu_a {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav a {
+    font-size: 20px;
+    color: black;
+    padding: 0 15px;
+    text-transform: uppercase;
+    display: block;
+    transition: all linear 0.3s;
+  }
+  .nav a:hover {
+    background: #6D6968;
+    color: whitesmoke;
+  }
+  .blackhouse a {
+    font-size: 35px;
+    color: black;
+  }
+  .drop {
+    position: relative;
+  }
+  .slide{
+      height: 80%;
+      width: 80%;
+  }
+ 
