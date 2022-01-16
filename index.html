@@ -22,26 +22,25 @@
         </div>
     </div>
 
-    <div id="carouselExampleFade" class="slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="BH.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="P.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Q.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+   <div class="carousel-wrapper">
+     <span id="item-1"></span>
+     <span id="item-2"></span>
+     <span id="item-3"></span>
+
+     <div class="carousel item item-1">
+       <a href="#item-3" class="arrow-prev arrow"></a>
+       <a href="#item-2" class="arrow-prev arrow"></a>
+     </div>
+
+     <div class="carousel item item-2">
+      <a href="#item-1" class="arrow-prev arrow"></a>
+      <a href="#item-3" class="arrow-prev arrow"></a>
+    </div>
+
+    <div class="carousel item item-3">
+      <a href="#item-2" class="arrow-prev arrow"></a>
+      <a href="#item-1" class="arrow-prev arrow"></a>
+    </div>
+   
     </body>
 </html>
