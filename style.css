@@ -18,8 +18,8 @@
   }
   .header {
     background: #E5E4E2;
-    height: 80px;
-    line-height: 80px;
+    height: 100px;
+    line-height: 90px;
   }
   .container {
     max-width: 86%;
@@ -48,4 +48,14 @@
     font-size: 35px;
     color: black;
   }
-  
+  .head{
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: red;
+  }
+  .paragraph{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: red;
+  }
